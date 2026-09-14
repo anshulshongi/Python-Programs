@@ -1,4 +1,4 @@
 def square(n):
-    result = n*n
-    print(result)
-square(4)
+    return n*n
+   
+print(square(4))
