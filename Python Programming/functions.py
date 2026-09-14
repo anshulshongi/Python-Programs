@@ -8,10 +8,11 @@ def add(a,b):
 print(add(4,5))
 
 def calc(a,b):
-  return a+b ,a*b
-x=(calc(1,2))
+  return a+b ,a*b,a-b
+x,y,z=(calc(10,5))
 print(x)
-
+print(y)
+print(z)
 
 def greet():
    print("Hello everyone, Welcome to Python")
