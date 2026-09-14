@@ -11,3 +11,8 @@ def calc(a,b):
   return a+b ,a*b
 x=(calc(1,2))
 print(x)
+
+
+def greet():
+   print("Hello everyone, Welcome to Python")
+greet()
