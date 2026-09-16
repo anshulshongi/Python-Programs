@@ -1,6 +1,11 @@
+#functions in python 
+
 def square(n):
+    '''return square of number'''
     result = n*n
+    print(square.__doc__)
     print(result)
+    
 
 square(4)
 def add(a,b):
@@ -17,3 +22,9 @@ print(z)
 def greet():
    print("Hello everyone, Welcome to Python")
 greet()
+
+square = lambda x : x*x
+print(square(5))
+
+add = lambda y,z : y+z
+print(add(2,3))
