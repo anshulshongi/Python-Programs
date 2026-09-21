@@ -5,9 +5,9 @@ def square(n):
     result = n*n
     print(square.__doc__)
     print(result)
-    
-
 square(4)
+
+
 def add(a,b):
    return a+b
 print(add(4,5))
