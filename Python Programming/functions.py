@@ -44,14 +44,14 @@ def calculator(a,b):
       return a/b
 
 print(calculator(a,b))'''
-'''
+
 #write a function that accepts two numbers and return largest number
 a=int(input("Enter a number:"))
 b=int(input("Enter second number:"))
 def largest(a,b):
    return max(a,b)
 print("largest number is",largest(a,b))
-'''
+
 
 #Function that accepts a nymber and checks whether uf it is even or odd
 a=int(input("Enter a number:"))
