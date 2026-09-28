@@ -20,7 +20,7 @@ total = sum(sub1,sub2,sub3,sub4,sub5)
 def percent(a,b):
     return (a/b)*100
 percentage = percent(total,max)
-def grade(a):
+def Grade(a):
     if a>90:
         return "A"
     elif a<=90 and a>80:
@@ -31,7 +31,8 @@ def grade(a):
         return "D"
     else:
         return "Fail"
+grade = Grade(percentage)
 
 print("Total marks obtained is",total)
 print("Percentage obtained is",percentage)
-print("Grade obtained is ",grade(percentage))
+print("Grade obtained is ",grade)
