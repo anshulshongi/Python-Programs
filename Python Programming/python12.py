@@ -6,7 +6,7 @@ while x > 0:
     fact = fact * x
     x -= 1
 print("Factorial of number", num, "is", fact)'''
-
+'''
 #WAP using functions to calculate total, percentage and grade of student based on mark in five subjects
 sub1 = float(input("Enter subject_1 marks:"))
 sub2 = float(input("Enter subject_2 marks:"))
@@ -36,3 +36,29 @@ grade = Grade(percentage)
 print("Total marks obtained is",total)
 print("Percentage obtained is",percentage)
 print("Grade obtained is ",grade)
+'''
+
+#Write a function to  calculate area of circle
+'''
+r = float(input("Enter radius of circle:"))
+def area(a):
+    return 3.1416*r**2
+print("Area of circle is",area(r))'''
+
+'''#Write a function to cheack whether a string is pallidrome
+s = input("Enter a word:")
+b = s[::-1]
+def pal(a):
+    if s.upper()==b.upper():
+        return "Word is a pallindrome"
+    else:
+        return "Word is not a pallindrome"
+print(pal(s))
+print(b)
+'''
+#Write a function to find maximum eliment in a list without using max function.
+l=[1,2,23,43,12,54,78,56]
+def large(a):
+    a.sort()
+    return a[-1]
+print(large(l))
